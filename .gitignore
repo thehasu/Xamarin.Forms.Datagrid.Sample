@@ -1,0 +1,16 @@
+*.cache
+*.user
+*.suo
+.suo
+bin
+obj
+.config
+*.v2
+.v2
+.vs
+.vs/
+/*.zip
+/_ReSharper.Caches
+/.vs
+/.vs/
+/.vs/*
