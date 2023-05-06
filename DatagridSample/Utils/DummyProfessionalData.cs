@@ -11,17 +11,18 @@ namespace DatagridSample.Utils
         public static ObservableCollection<Professional> GetProfessionals()
         {
             var data = new ObservableCollection<Professional>();
-            var person = new Professional()
-            {
-                Name = "Monkey",
-                Desigination = "Developer",
-                Domain = "Mobile",
-                Experience = "1"
-            };
+            
 
             for (int i = 0; i < 10; i++)
             {
-                person.Id = i + 1;
+                var person = new Professional()
+                {
+                    Id = i+1,
+                    Name = "Monkey",
+                    Desigination = "Developer",
+                    Domain = "Mobile",
+                    Experience = "1"
+                };
                 data.Add(person);
 
             }
